@@ -100,8 +100,8 @@ class MatrixRain {
 		}, 1000 / fps);
 	}
 	setCanvasDimensions(width, height) {
-		this.canvas.width = 1440;
-		this.canvas.height = 400;
+		this.canvas.width = width;
+		this.canvas.height = height;
 		this.columns = Math.ceil(this.canvas.width / Char.width);
 	}
 	run() {
